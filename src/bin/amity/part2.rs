@@ -117,7 +117,7 @@ fn find_digit(chars: impl Iterator<Item = char>, reversed: bool) -> Option<u32> 
 	for (
 		digit,
 		word_chars
-	) in words_checking.iter_mut() {
+	) in words_checking.iter_mut().take(words_count) {
 		if word_chars.next().is_none() {
 			return Some(*digit);
 		}
