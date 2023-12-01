@@ -58,7 +58,7 @@ Part 2: 54728
 
 Part 1 was pretty straightforward. I just needed to parse the input and sum the first and last digits of each line. Finding the digits was simple. I just iterated through the characters in each line, first forward, then in reverse, until I found a digit. Then, I created a number from each digit and summed them all.
 
-Part 2 was interesting with several good ways to tackle it. I chose to take an involved approach by iterating through the characters exactly as I did in Part 1 while searching for the text representations of each digit. There was, of course, a simpler way through RegEx or something similar, but that carries the significant disadvantage of using RegEx. It also didn't seem to be in the spirit of the problem. I wanted to find the digits myself. I'm happy with my solution except for the verbosity of the code resulting from that decision. Nearly half of the code file is this curiosity:
+Part 2 was interesting with several good ways to tackle it. I chose to take an involved approach by iterating through the characters exactly as I did in Part 1 while searching for the text representations of each digit. There was, of course, a simpler way through RegEx or something similar, but that carries the significant disadvantage of using RegEx. It also didn't seem to be in the spirit of the problem. I wanted to find the digits myself. I'm happy with my solution except for the verbosity of the code resulting from that decision. About half of the code file is this curiosity:
 
 ```rust
 if !reversed {
