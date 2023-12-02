@@ -51,10 +51,15 @@ In this example, the calibration values are `29`, `83`, `13`, `24`, `42`, `14`, 
 
 My code correctly yields:
 
-```
-Part 1: 54916
-Part 2: 54728
-```
+<details>
+	<summary>Output</summary>
+	```
+	Part 1: 54916
+	Part 2: 54728
+	```
+</details>
+
+## Approach
 
 Part 1 was pretty straightforward. I just needed to parse the input and sum the first and last digits of each line. Finding the digits was simple. I just iterated through the characters in each line, first forward, then in reverse, until I found a digit. Then, I created a number from each digit and summed them all.
 

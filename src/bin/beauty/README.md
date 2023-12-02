@@ -60,10 +60,15 @@ For each game, find the minimum set of cubes that must have been present. **What
 
 My code accurately produces:
 
-```
-Part 1: 2771
-Part 2: 70924
-```
+<details>
+	<summary>Output</summary>
+	```
+	Part 1: 2771
+	Part 2: 70924
+	```
+</details>
+
+## Approach
 
 I solved today's challenge in stark contrast with Yesterday's in a number of ways.
 
