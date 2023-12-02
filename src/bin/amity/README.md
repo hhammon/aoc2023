@@ -53,10 +53,10 @@ My code correctly yields:
 
 <details>
 	<summary>Output</summary>
-	```
-	Part 1: 54916
-	Part 2: 54728
-	```
+
+    Part 1: 54916
+    Part 2: 54728
+
 </details>
 
 ## Approach

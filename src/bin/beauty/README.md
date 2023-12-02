@@ -62,10 +62,10 @@ My code accurately produces:
 
 <details>
 	<summary>Output</summary>
-	```
-	Part 1: 2771
-	Part 2: 70924
-	```
+
+    Part 1: 2771
+    Part 2: 70924
+
 </details>
 
 ## Approach
